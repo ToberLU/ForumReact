@@ -1,10 +1,10 @@
 # TODO - Forum de discussion
 
 ## 1. Initialisation du projet
-- [ ] Créer la structure de dossiers du projet (backend / frontend)
-- [ ] Initialiser le projet Node.js dans le dossier backend
-- [ ] Initialiser le projet React avec Vite dans le dossier frontend
-- [ ] Configurer TypeScript dans les deux projets
+- [x] Créer la structure de dossiers du projet (backend / frontend)
+- [x] Initialiser le projet Node.js dans le dossier backend
+- [x] Initialiser le projet React avec Vite dans le dossier frontend
+- [x] Configurer TypeScript dans les deux projets
 
 ## 2. Docker
 - [ ] Créer un Dockerfile pour le backend
@@ -13,7 +13,7 @@
 - [ ] Tester que les containers se lancent correctement
 
 ## 3. Backend - Base
-- [ ] Configurer le serveur Express (ou alternative)
+- [x] Configurer le serveur Express (ou alternative)
 - [ ] Connecter l'application à MongoDB
 - [ ] Mettre en place un système de gestion d'erreurs
 - [ ] Configurer les variables d'environnement
