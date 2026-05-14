@@ -19,8 +19,8 @@
 - [x] Configurer les variables d'environnement
 
 ## 4. Backend - Authentification
-- [ ] Créer le modèle utilisateur (User)
-- [ ] Implémenter l'inscription (hash du mot de passe)
+- [x] Créer le modèle utilisateur (User)
+- [x] Implémenter l'inscription (hash du mot de passe)
 - [ ] Implémenter la connexion (JWT ou sessions)
 - [ ] Créer un middleware de protection des routes
 
