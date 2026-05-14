@@ -7,16 +7,16 @@
 - [x] Configurer TypeScript dans les deux projets
 
 ## 2. Docker
-- [ ] Créer un Dockerfile pour le backend
-- [ ] Créer un Dockerfile pour le frontend
-- [ ] Créer un docker-compose.yml avec les services (backend, frontend, mongodb)
-- [ ] Tester que les containers se lancent correctement
+- [x] Créer un Dockerfile pour le backend
+- [x] Créer un Dockerfile pour le frontend
+- [x] Créer un docker-compose.yml avec les services (backend, frontend, mongodb)
+- [x] Tester que les containers se lancent correctement
 
 ## 3. Backend - Base
 - [x] Configurer le serveur Express (ou alternative)
-- [ ] Connecter l'application à MongoDB
-- [ ] Mettre en place un système de gestion d'erreurs
-- [ ] Configurer les variables d'environnement
+- [x] Connecter l'application à MongoDB
+- [x] Mettre en place un système de gestion d'erreurs
+- [x] Configurer les variables d'environnement
 
 ## 4. Backend - Authentification
 - [ ] Créer le modèle utilisateur (User)

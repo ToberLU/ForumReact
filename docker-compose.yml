@@ -1,0 +1,28 @@
+services:
+  mongodb:
+    image: mongo:7
+    ports:
+      - "${PORT_MONGO}:${PORT_MONGO}"
+    volumes:
+      - mongodb_data:/data/db
+  backend:
+    build: ./back
+    ports:
+      - "${PORT_BACK}:${PORT_BACK}"
+    depends_on:
+      - mongodb
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - CHOKIDAR_USEPOLLING=1
+    volumes:
+      - ./back/src:/app/src
+  frontend:
+    build: ./front
+    ports:
+      - "${PORT_FRONT}:${PORT_FRONT}"
+    depends_on:
+      - backend
+    volumes:
+      - ./front/src:/app/src
+volumes:
+  mongodb_data:
