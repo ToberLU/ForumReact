@@ -21,8 +21,8 @@
 ## 4. Backend - Authentification
 - [x] Créer le modèle utilisateur (User)
 - [x] Implémenter l'inscription (hash du mot de passe)
-- [ ] Implémenter la connexion (JWT ou sessions)
-- [ ] Créer un middleware de protection des routes
+- [x] Implémenter la connexion (JWT ou sessions)
+- [x] Créer un middleware de protection des routes
 
 ## 5. Backend - Forum
 - [ ] Créer le modèle de catégorie
